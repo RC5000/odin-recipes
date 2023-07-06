@@ -1,10 +1,11 @@
 body {
-    background-color: #9AE66E;
+    background-color: #3A3845;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 h1 {
     text-align: center;
-    color: #753188;
+    color: #88eb0f;
     font-size: 4vw;
 }
 
@@ -20,5 +21,5 @@ h1 {
 }
 
 .recipe-link:hover {
-    color: #2C272E;
+    color: #a50feb;
 }
