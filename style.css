@@ -1,0 +1,24 @@
+body {
+    background-color: #9AE66E;
+}
+
+h1 {
+    text-align: center;
+    color: #753188;
+    font-size: 4vw;
+}
+
+.list {
+    text-align: center;
+    list-style: none;
+}
+
+.recipe-link {
+    text-decoration: none;
+    color: #E59934;
+    font-size: 2vw;
+}
+
+.recipe-link:hover {
+    color: #2C272E;
+}
