@@ -1,7 +1,15 @@
 .recipe-name {
-    text-align: center;
     color: #88eb0f;
     font-size: 4vw;
     margin-top: 10%;
+    display: inline-block;
     text-align: left;
+
+}
+
+.food-img {
+    height: 600px;
+    width: 600px;
+    border-radius: 25%;
+
 }
