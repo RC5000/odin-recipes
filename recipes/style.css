@@ -1,15 +1,39 @@
+.title-img {
+   display: flex; 
+   align-items: center;
+}
+
+
 .recipe-name {
     color: #88eb0f;
-    font-size: 4vw;
-    margin-top: 10%;
-    display: inline-block;
+    font-size: 8vw;
     text-align: left;
+    margin-right: 10px;
+    position: relative;
 
 }
 
 .food-img {
-    height: 600px;
-    width: 600px;
+    height: 40vw;
+    width: auto;
     border-radius: 25%;
 
 }
+
+.recipe-name-mirror {
+    color: transparent;
+    font-size: 8vw;
+    text-align: left;
+    margin-right: 10px;
+    position: relative;
+}
+
+.recipe-name-mirror::after {
+    content: attr(data-title);
+    color: red;
+    font-size: 8vw;
+    transform: scaleX(-1);
+    position: absolute;
+    right: -10px;
+    top: 0;
+  }
