@@ -44,4 +44,15 @@ body {
     top: 0;
   }
 
+  h2 {
+    color: #E59934;
+  }
+
+  .purple {
+    color: #a50feb;
+  }
+
+  .conclusion {
+    color: red;
+  }
 
