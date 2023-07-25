@@ -1,3 +1,8 @@
+body {
+    background-color: #3A3845;
+    font-family: 'Courier New', Courier, monospace;
+}
+
 .title-img {
    display: flex; 
    align-items: center;
@@ -22,10 +27,11 @@
 
 .recipe-name-mirror {
     color: transparent;
-    font-size: 8vw;
+    font-size: 5vw;
     text-align: left;
     margin-right: 10px;
     position: relative;
+
 }
 
 .recipe-name-mirror::after {
@@ -37,3 +43,5 @@
     right: -10px;
     top: 0;
   }
+
+
